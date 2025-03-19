@@ -13,8 +13,7 @@ Ebay	scrape ebay searches
 Requirements
 A few of these projects use browser automation, but most do not. For this, I use Selenium to automate the browser. Other libraries that are used include:
 
-Requests
-BeautifulSoup
-lxml
+We have used React Native for the frontend design of our application
+
 
 

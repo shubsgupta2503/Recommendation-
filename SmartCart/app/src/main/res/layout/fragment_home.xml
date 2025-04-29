@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.theme.HomeFragment">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/homeScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white">
+
+                <LinearLayout
+                    android:id="@+id/categoryContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Row 1 -->
+                    <LinearLayout
+                        android:id="@+id/categoryRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <!-- Tile 1 -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:layout_weight="1"
+                            card_view:cardCornerRadius="16dp"
+                            card_view:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/snacks"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/snacks" />
+
+                                <TextView
+                                    android:id="@+id/snackst"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="8dp"
+                                    android:text="Snacks"
+                                    android:textColor="@android:color/black"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Tile 2 -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:layout_weight="1"
+                            card_view:cardCornerRadius="16dp"
+                            card_view:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/milk"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/milk" />
+
+                                <TextView
+                                    android:id="@+id/milkt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="8dp"
+                                    android:text="Milk Products"
+                                    android:textColor="@android:color/black"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Tile 3 -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:layout_weight="1"
+                            card_view:cardCornerRadius="16dp"
+                            card_view:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/grocery"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/groceries" />
+
+                                <TextView
+                                    android:id="@+id/groceriest"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="8dp"
+                                    android:text="Groceries"
+                                    android:textColor="@android:color/black"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <!-- Row 2 -->
+                    <LinearLayout
+                        android:id="@+id/categoryRow2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <!-- Tile 4 -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:layout_weight="1"
+                            card_view:cardCornerRadius="16dp"
+                            card_view:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/personal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/personal" />
+
+                                <TextView
+                                    android:id="@+id/personalt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="8dp"
+                                    android:text="Personal"
+                                    android:textColor="@android:color/black"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Tile 5 -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:layout_weight="1"
+                            card_view:cardCornerRadius="16dp"
+                            card_view:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/packaged"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/packaged" />
+
+                                <TextView
+                                    android:id="@+id/packagedt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="8dp"
+                                    android:text="Packaged"
+                                    android:textColor="@android:color/black"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Tile 6 -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:layout_weight="1"
+                            card_view:cardCornerRadius="16dp"
+                            card_view:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/household"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/household" />
+
+                                <TextView
+                                    android:id="@+id/householdt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="8dp"
+                                    android:text="Household"
+                                    android:textColor="@android:color/black"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+
+            <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/brobro"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Search Bar -->
+                    <EditText
+                        android:id="@+id/searchBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/search_background"
+                        android:drawableStart="@android:drawable/ic_menu_search"
+                        android:drawablePadding="8dp"
+                        android:hint="Search products..."
+                        android:visibility="gone"
+                        android:padding="12dp"
+                        android:layout_marginBottom="12dp"/>
+
+                    <!-- Section: Snacks -->
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/snackRecycler"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_marginBottom="12dp"
+                        android:nestedScrollingEnabled="false"
+                        android:overScrollMode="never" />
+
+                    <!-- Section: Milk Products -->
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/milkRecycler"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:nestedScrollingEnabled="false"
+                        android:overScrollMode="never" />
+
+                    <!-- Section: Groceries -->
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/groceryRecycler"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:nestedScrollingEnabled="false"
+                        android:overScrollMode="never" />
+
+                    <!-- Section: Groceries -->
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/personalRecycler"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:nestedScrollingEnabled="false"
+                        android:overScrollMode="never" />
+
+                    <!-- Section: Groceries -->
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/packagedRecycler"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:nestedScrollingEnabled="false"
+                        android:overScrollMode="never" />
+
+                    <!-- Section: Groceries -->
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/householdRecycler"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:nestedScrollingEnabled="false"
+                        android:overScrollMode="never" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

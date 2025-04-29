@@ -1,0 +1,85 @@
+{
+    "items": [
+      {
+        "title": "Sowbhagya Foods Bengaluru Special Mixture",
+        "price": "₹165",
+        "rating": "4.1",
+        "reviews": "34",
+        "url": "https://blinkit.com/product/2001",
+        "image_url": "https://blinkit.com/images/2001.jpg"
+      },
+      {
+        "title": "JOLOCHIP Hottest CHIP Madness Last Challenge",
+        "price": "₹240",
+        "rating": "4.2",
+        "reviews": "32789",
+        "url": "https://blinkit.com/product/2002",
+        "image_url": "https://blinkit.com/images/2002.jpg"
+      },
+      {
+        "title": "Haldiram's Moong Dal",
+        "price": "₹201",
+        "rating": "4.4",
+        "reviews": "1722",
+        "url": "https://blinkit.com/product/2003",
+        "image_url": "https://blinkit.com/images/2003.jpg"
+      },
+      {
+        "title": "Ajooba Roasted Chana 1Kg",
+        "price": "₹245",
+        "rating": "4.2",
+        "reviews": "287",
+        "url": "https://blinkit.com/product/2004",
+        "image_url": "https://blinkit.com/images/2004.jpg"
+      },
+      {
+        "title": "Bingo Hot & Spicy Korean Nachos",
+        "price": "₹50",
+        "rating": "4.0",
+        "reviews": "N/A",
+        "url": "https://blinkit.com/product/2005",
+        "image_url": "https://blinkit.com/images/2005.jpg"
+      },
+      {
+        "title": "EATFUL Phool Makhana Raw/Regular Lotus Seed Pop",
+        "price": "₹450",
+        "rating": "4.3",
+        "reviews": "1367",
+        "url": "https://blinkit.com/product/2006",
+        "image_url": "https://blinkit.com/images/2006.jpg"
+      },
+      {
+        "title": "MUKHAROCHAK Sweet and Sour Chanachur",
+        "price": "₹70",
+        "rating": "4.1",
+        "reviews": "38",
+        "url": "https://blinkit.com/product/2007",
+        "image_url": "https://blinkit.com/images/2007.jpg"
+      },
+      {
+        "title": "lalji Navratan mixture 400Gm Bikaneri Namkeen",
+        "price": "₹190",
+        "rating": "4.0",
+        "reviews": "32",
+        "url": "https://blinkit.com/product/2008",
+        "image_url": "https://blinkit.com/images/2008.jpg"
+      },
+      {
+        "title": "lalji Badam Lachha 400Gm Bikaneri Namkeen",
+        "price": "₹179",
+        "rating": "4.1",
+        "reviews": "139",
+        "url": "https://blinkit.com/product/2009",
+        "image_url": "https://blinkit.com/images/2009.jpg"
+      },
+      {
+        "title": "Dhawak Gujrati Mini Bhakarwadi",
+        "price": "₹165",
+        "rating": "3.7",
+        "reviews": "895",
+        "url": "https://blinkit.com/product/2010",
+        "image_url": "https://blinkit.com/images/2010.jpg"
+      }
+    ]
+  }
+  

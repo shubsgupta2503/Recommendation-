@@ -1,0 +1,85 @@
+{
+    "items": [
+      {
+        "title": "Govind Milk and milk products Tetra Lassi",
+        "price": "₹364",
+        "rating": "4.4",
+        "reviews": "15",
+        "url": "https://blinkit.com/product/1",
+        "image_url": "https://blinkit.com/images/1.jpg"
+      },
+      {
+        "title": "Govind Milk and milk products Funzz (Butterscotch, Chocolate)",
+        "price": "₹359",
+        "rating": "4.3",
+        "reviews": "7",
+        "url": "https://blinkit.com/product/2",
+        "image_url": "https://blinkit.com/images/2.jpg"
+      },
+      {
+        "title": "Govind Milk and milk products Mattha Tetra Pack",
+        "price": "₹300",
+        "rating": "",
+        "reviews": "",
+        "url": "https://blinkit.com/product/3",
+        "image_url": "https://blinkit.com/images/3.jpg"
+      },
+      {
+        "title": "Govind Milk and milk products Funzz Milk Shake (Double Chocolate)",
+        "price": "₹407",
+        "rating": "",
+        "reviews": "",
+        "url": "https://blinkit.com/product/4",
+        "image_url": "https://blinkit.com/images/4.jpg"
+      },
+      {
+        "title": "Govind Milk and milk products Funzz (Rose)",
+        "price": "₹359",
+        "rating": "",
+        "reviews": "",
+        "url": "https://blinkit.com/product/5",
+        "image_url": "https://blinkit.com/images/5.jpg"
+      },
+      {
+        "title": "Govind Flavoured Milk Bottle (Badam, Pista & Keshar)",
+        "price": "₹343",
+        "rating": "",
+        "reviews": "",
+        "url": "https://blinkit.com/product/6",
+        "image_url": "https://blinkit.com/images/6.jpg"
+      },
+      {
+        "title": "Govind Milk & Milk Products UHT Basundi",
+        "price": "₹711",
+        "rating": "",
+        "reviews": "",
+        "url": "https://blinkit.com/product/7",
+        "image_url": "https://blinkit.com/images/7.jpg"
+      },
+      {
+        "title": "Govind Funzz Milk Shake (Vanilla)",
+        "price": "₹587",
+        "rating": "",
+        "reviews": "",
+        "url": "https://blinkit.com/product/8",
+        "image_url": "https://blinkit.com/images/8.jpg"
+      },
+      {
+        "title": "Govind UHT Toned Milk 1Ltr",
+        "price": "₹44",
+        "rating": "3.8",
+        "reviews": "24",
+        "url": "https://blinkit.com/product/9",
+        "image_url": "https://blinkit.com/images/9.jpg"
+      },
+      {
+        "title": "Nescafe Latte Low Fat Milk Coffee Drink",
+        "price": "₹3,283",
+        "rating": "3.7",
+        "reviews": "3",
+        "url": "https://blinkit.com/product/10",
+        "image_url": "https://blinkit.com/images/10.jpg"
+      }
+    ]
+  }
+  
